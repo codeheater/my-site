@@ -1,9 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to 2001001.xyz</title>
+  <style>
+    :root {
+      --primary-color: #1e90ff;
+      --background-color: #f4f4f4;
+      --text-color: #333;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    main h1 {
+      font-size: 2.5rem;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 600px) {
+      main h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from 2001001.xyz</h1>
+
+  <header>
+    <h2>2001001.xyz</h2>
+    <p>Your gateway to the future</p>
+  </header>
+
+  <main>
+    <div>
+      <h1>👋 Welcome to My Domain</h1>
+      <p>Site Under Construction. Comming Soon....</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 | Powered by GitHub Pages | Built by Jewel
+  </footer>
+
 </body>
 </html>
